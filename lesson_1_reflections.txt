@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By using diff to compare 2 versions of a file, we can see what code was added and deleted due
+to which the bug was introduced.
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+It helps to see the progress of our content. We can view the breakpoints where we have made 
+significant changes. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: It gives us the control of saving our data when we want to. Automatic saving can 
+create too many unnecessary and illogical versions. 
+Cons: We might work for too long and forget to make a commit. Now if a bug is introduced 
+then it might take a lot of time to find it because we dont have the required saved previous breakpoints.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+A change in one file can cause changes in other files simultaneously. Because that one change in a file 
+has caused changes in other files also, it is logical to save all files together at one point.
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows us the record of commits made with the most recent commit at the top.
+git diff compares 2 different commits and allows us to see what was changed in the new commit.
+
+How might using version control make you more confident to make changes that could break something?
+It gives us total freedom to make any kind of tweaks, big or small, in our code. If by doing some
+changes we break something in our code then we can immediately revert back to our previous saved working 
+version of the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+To learn how to use various commands and understand the core concepts in a practical way.
