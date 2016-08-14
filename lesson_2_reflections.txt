@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 We can add files that we want to be included in the commit to the staging area.
 Staging area acts as an intermediary between working directory and repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+After making the change, add the changed file to the staging area. Then use git diff --staged to check
+whether there are any changed files in the staging area as compared to the most recent commit.
