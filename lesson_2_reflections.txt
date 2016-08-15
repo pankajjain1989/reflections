@@ -19,3 +19,8 @@ then commitiing it in a separate branch would be useful.
 
 How do the diagrams help you visualize the branch structure?
 The diagrams helps us see how many branches we have created and all the commits made on every branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+After merging, the additions and deletions from both branches are taken into account and a new commit is
+created pointing to one of the branches. 
+Representing it in the tree diagram makes it visually clear to understand the branch structure after merging.
