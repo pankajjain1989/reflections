@@ -24,3 +24,8 @@ What is the result of merging two branches together? Why do we represent it in t
 After merging, the additions and deletions from both branches are taken into account and a new commit is
 created pointing to one of the branches. 
 Representing it in the tree diagram makes it visually clear to understand the branch structure after merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Saves a lot of time and makes tasks simpler. Also if there is a conflict, it allows 
+the user to resolve it and only then proceed further.
+Cons: Automatic merging can sometimes result in some ambiguity in the code. 
