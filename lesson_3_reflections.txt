@@ -8,3 +8,13 @@ Manual pulling gives us the option to choose which commits I want to fetch. If I
 working on something currently and in between some new commits are made and updated 
 automatically on my local repo then it breaks the current line of commits I made
 or about to make related to my current work.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork: To clone a GitHub repository from someone else's account into a GitHub repository on your account.
+Clone: To create a copy of a GitHub repository on your local machine.
+Branch: Create a new line of commits to work on something else in your project.
+When to use: To add something to a repository for which I dont have permission to add, I can fork it directly
+on my GitHub account and add my changes there. To create new commits to a repository I can clone it on my 
+local machine and add changes to it thereby pushing it back to the GitHub repo.
+
+
