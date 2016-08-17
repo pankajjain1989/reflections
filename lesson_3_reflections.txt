@@ -17,4 +17,8 @@ When to use: To add something to a repository for which I dont have permission t
 on my GitHub account and add my changes there. To create new commits to a repository I can clone it on my 
 local machine and add changes to it thereby pushing it back to the GitHub repo.
 
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This copy shows the last commit made on GitHub repo by any collaborator.
+By comparing that commit using git diff with the commit made by us locally we can resolve 
+conflicts if any and merge accordingly. Running git status will show us the diverged paths 
+of remote branch and our current working branch.
