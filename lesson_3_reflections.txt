@@ -22,3 +22,6 @@ This copy shows the last commit made on GitHub repo by any collaborator.
 By comparing that commit using git diff with the commit made by us locally we can resolve 
 conflicts if any and merge accordingly. Running git status will show us the diverged paths 
 of remote branch and our current working branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+By making a Google Group and through email. Of course, Git or GitHub would be easier.
