@@ -25,3 +25,11 @@ of remote branch and our current working branch.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 By making a Google Group and through email. Of course, Git or GitHub would be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+Making changes in a separate branch ensures that we do not disturb the main master branch. 
+The master branch includes all the important commits and if we are experimenting something 
+then it's better to do it in a separate branch.
+This process is more complex as compared to doing it directly in master. We have to perform 
+merge a number of times locally as well as on GitHub.
